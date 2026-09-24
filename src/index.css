@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #100c09;
+  --panel: #1c140e;
+  --panel-2: #241811;
+  --line: #33241a;
+  --cream: #f3e7cf;
+  --cream-dim: #b7a488;
+  --gold: #c9a13b;
+  --amber-bg: #2a2010;
+  --amber-line: #5c4a1e;
+  --amber-text: #e0c26a;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--cream);
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Print specific styles for jar stickers */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-sheet {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+}

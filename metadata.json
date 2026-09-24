@@ -1,0 +1,6 @@
+{
+  "name": "Chilly Bang Digital Label & QR Code Studio",
+  "description": "Official digital label and dynamic QR code generator for Chilly Bang homemade chilli sauce, ready for instant Vercel deployment and jar printing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
