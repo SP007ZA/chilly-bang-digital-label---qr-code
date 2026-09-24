@@ -207,7 +207,7 @@ export const DigitalLabel: React.FC<DigitalLabelProps> = ({
               <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 flex-shrink-0">
                 <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0012.04 2zm5.8 14.17c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.81-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.79-4.17-4.94-4.37-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.58.81 2 .88 2.15.07.14.11.31.02.5-.09.19-.14.31-.28.47-.14.16-.29.36-.42.48-.14.13-.28.28-.12.55.16.28.72 1.19 1.55 1.93 1.07.95 1.96 1.25 2.24 1.39.28.14.44.12.61-.07.16-.19.7-.82.89-1.1.19-.28.37-.23.62-.14.26.09 1.64.77 1.92.91.28.14.47.21.54.33.07.12.07.68-.17 1.36z" />
               </svg>
-              <span>Order via WhatsApp ({CHILLY_BANG_INFO.whatsappDisplayNumber})</span>
+              <span>Order via WhatsApp </span>
             </a>
           </div>
 
@@ -217,7 +217,7 @@ export const DigitalLabel: React.FC<DigitalLabelProps> = ({
               <div className="relative group/qr flex-shrink-0">
                 {qrSrc ? (
                   <img
-                    src={qrSrc}
+                    src="/chilly_bang_digital_label_qr.png"
                     alt="Scan to reopen this label"
                     className="w-[88px] h-[88px] sm:w-[96px] sm:h-[96px] bg-[#f3e7cf] rounded-lg p-1.5 object-contain shadow-inner border border-[#33241a]"
                   />
