@@ -105,12 +105,13 @@ export const DigitalLabel: React.FC<DigitalLabelProps> = ({
 
         {/* Heading */}
         <div className="text-center mt-6 px-4">
-          <h1 className="m-0 text-base sm:text-[17px] font-semibold tracking-wide text-[#f3e7cf] leading-snug">
+         <h1 className="m-0 text-base sm:text-[17px] font-semibold tracking-wide text-[#f3e7cf] leading-snug">
             {CHILLY_BANG_INFO.name}
           </h1>
-          <p className="text-xs text-[#b7a488] mt-1 font-normal">
+           {/* <p className="text-xs text-[#b7a488] mt-1 font-normal">
             {CHILLY_BANG_INFO.tagline}
-          </p>
+          </p> */}
+          
         </div>
 
         {/* Facts badge */}
