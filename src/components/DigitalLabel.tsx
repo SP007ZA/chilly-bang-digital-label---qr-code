@@ -173,9 +173,7 @@ export const DigitalLabel: React.FC<DigitalLabelProps> = ({
                 ))}
               </tbody>
             </table>
-            <p className="text-[11.5px] text-[#b7a488] mt-2 ml-1 leading-relaxed">
-              {CHILLY_BANG_INFO.ingredientNote}
-            </p>
+           
           </div>
 
           {/* Allergen Information Callout */}
@@ -197,7 +195,7 @@ export const DigitalLabel: React.FC<DigitalLabelProps> = ({
           {/* Order / Contact Button */}
           <div>
             <div className="text-[12px] sm:text-[12.5px] font-semibold tracking-wider text-[#c9a13b] mb-2.5 uppercase">
-              Order a Jar
+              Order a Jar Click here to place an order
             </div>
             <a
               className="flex items-center justify-center gap-2.5 w-full py-3.5 px-4 bg-[#25d366] hover:bg-[#20bd5a] text-[#0b1a10] font-semibold text-sm rounded-xl no-underline shadow-[0_4px_16px_rgba(37,211,102,0.25)] transition-all duration-200 active:scale-[0.98]"
