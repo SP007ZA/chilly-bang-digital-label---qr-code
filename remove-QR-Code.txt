@@ -210,7 +210,36 @@ export const DigitalLabel: React.FC<DigitalLabelProps> = ({
             </a>
           </div>
 
-    
+          {/* Dynamic Live QR Code Box with Download & Print tools */}
+          <div className="mt-8 bg-[#1c140e] border border-[#33241a] rounded-xl p-4 shadow-sm">
+            <div className="flex items-center gap-4">
+              <div className="relative group/qr flex-shrink-0">
+                {qrSrc ? (
+                  <img
+                    src="/chilly_bang_digital_label_qr.png"
+                    alt="Scan to reopen this label"
+                    className="w-[88px] h-[88px] sm:w-[96px] sm:h-[96px] bg-[#f3e7cf] rounded-lg p-1.5 object-contain shadow-inner border border-[#33241a]"
+                  />
+                ) : (
+                  <div className="w-[88px] h-[88px] bg-[#241811] animate-pulse rounded-lg flex items-center justify-center text-[#b7a488] text-xs">
+                    Generating...
+                  </div>
+                )}
+              </div>
+
+              <div className="flex-1 min-w-0">
+                <p className="text-[13px] font-semibold text-[#f3e7cf] m-0 mb-1">
+                  Scan to reopen this label
+                </p>
+                <p className="text-[11.5px] text-[#b7a488] leading-relaxed m-0">
+                  Print this code on the jar lid or sticker.
+                </p>
+                
+               
+              </div>
+            </div>
+
+          </div>
 
           {/* Footer */}
           <footer className="text-center pt-2 pb-6 text-[11px] tracking-widest uppercase text-[#8c7356]">
