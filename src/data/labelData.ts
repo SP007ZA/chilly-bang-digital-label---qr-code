@@ -38,14 +38,11 @@ export const CHILLY_BANG_INFO = {
 
   ingredients: [
     { number: 1, name: "Selected Chilli" },
-    { number: 2, name: "Tomato Paste" },
-    { number: 3, name: "Garlic" },
-    { number: 4, name: "Peppers" },
-    { number: 5, name: "Sweetened Chilli Blend" },
-    { number: 6, name: "Aromatic Herbs" },
-    { number: 7, name: "Spices" },
-    { number: 8, name: "Salt" },
-    { number: 9, name: "Vinegar" },
+    { number: 2, name: "Garlic & Peppers" },
+    { number: 3, name: "Sweetened Chilli Blend" },
+    { number: 4, name: "Aromatic Herbs & Spices" },
+    { number: 5, name: "Permitted Presevatives" },
+
   ] as IngredientItem[],
 
   ingredientNote: "As listed on the jar label.",
